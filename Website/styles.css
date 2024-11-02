@@ -135,8 +135,8 @@ ul {
 }
 
 .big-container-left {
-  flex: 70%;
-  padding: 10px;
+  flex: 60%;
+  padding: 5px;
   text-align: left;
 }
 
@@ -150,6 +150,12 @@ ul {
   flex: 70%;
   padding: 10px;
   text-align: left;
+}
+
+.profile-pic-container-right {
+  flex: 40%;
+  padding: 1px;
+  text-align: right;
 }
 
 .small-container-left {
@@ -246,6 +252,7 @@ ul {
   
   .big-container-left, .small-container-right {
     flex: 100%;
+    text-align: center;
   }
 
   .small-container-right {
