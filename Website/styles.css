@@ -135,8 +135,13 @@ ul {
 }
 
 .big-container-left {
-  flex: 60%;
+  flex: 50%;
   padding: 5px;
+  text-align: left;
+}
+
+.big-container-left1 {
+  flex: 50%;
   text-align: left;
 }
 
@@ -146,8 +151,13 @@ ul {
   text-align: right;
 }
 
+.small-container-right1 {
+  flex: 15%;
+  text-align: right;
+}
+
 .big-container-right {
-  flex: 70%;
+  flex: 0%;
   padding: 10px;
   text-align: left;
 }
